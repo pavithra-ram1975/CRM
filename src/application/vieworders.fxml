@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="vieworder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ImageView fitHeight="444.0" fitWidth="200.0" layoutX="-12.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/27%20Copper%20Products%20For%20Girls%20Who%20Want%20to%20Get%20Their%20Shine%20On.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="205.0" layoutY="33.0" text=" Dial : Blush Sunray And Stone And Bee With Index" />
+      <Label layoutX="44.0" layoutY="300.0" text="Price : ₹ 4,650.00" />
+      <Label layoutX="205.0" layoutY="117.0" text=" Case Diameter : 32" />
+      <Label layoutX="208.0" layoutY="73.0" text="Brand : OlivionBurton" />
+      <Label layoutX="208.0" layoutY="158.0" text="Case Material : Pale Rose Gold Ionic Plated Stainless Steel With Crystal" />
+      <Label layoutX="208.0" layoutY="200.0" text="Gemstone Number : 3" />
+      <Button fx:id="serviceneeded" layoutX="215.0" layoutY="241.0" mnemonicParsing="false" onAction="#serviceneededfxml" text="Service" />
+   </children>
+</AnchorPane>
